@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/input_prompt_footer_bg">
+    <TableLayout
+        android:id="@+id/table_options"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <TextView
+                android:id="@+id/tv_option1"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_rectangle_multiple_text"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:text="Option1" />
+            <TextView
+                android:id="@+id/tv_option2"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_rectangle_multiple_text"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:text="Option2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <TextView
+                android:id="@+id/tv_option3"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_rectangle_multiple_text"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:text="Option3" />
+            <TextView
+                android:id="@+id/tv_option4"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_rectangle_multiple_text"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:text="Option4" />
+        </TableRow>
+
+    </TableLayout>
+
+    <include
+        layout="@layout/layout_prompt_submit_input"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/table_options"/>
+
+</RelativeLayout>

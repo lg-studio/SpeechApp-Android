@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/certificates_bg"
+    tools:context="com.tas.speech.sections.certificates.CertificatesFragment">
+
+    <ImageView
+        android:id="@+id/iv_univ_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_leuphana"/>
+
+    <TextView
+        android:id="@+id/tv_select_certificate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_univ_logo"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Please select one certificate"/>
+
+    <ExpandableListView
+        android:id="@+id/elv_certificates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/tv_select_certificate"
+        android:divider="@android:color/white"
+        android:childDivider="@android:color/white"
+        android:dividerHeight="2dp"
+        android:groupIndicator="@android:color/transparent"/>
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

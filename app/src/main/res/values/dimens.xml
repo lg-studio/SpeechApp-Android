@@ -1,0 +1,53 @@
+<resources>
+
+    <dimen name="output_prompt_list_margin_bottom">10dp</dimen>
+    <dimen name="input_prompt_margin_top">5dp</dimen>
+
+    <!-- Output -->
+    <dimen name="output_prompt_small_margin">5dp</dimen>
+    <dimen name="output_prompt_big_margin">50dp</dimen>
+
+    <dimen name="output_prompt_avatar_size">40dp</dimen>
+    <dimen name="output_prompt_avatar_padding">3dp</dimen>
+
+    <dimen name="output_prompt_body_margin_top">10dp</dimen>
+    <dimen name="output_prompt_body_margin_side">5dp</dimen>
+
+    <dimen name="output_prompt_username_padding">2dp</dimen>
+    <dimen name="output_prompt_username_margin_top">3dp</dimen>
+
+    <dimen name="output_prompt_text_message_padding">4dp</dimen>
+
+    <!-- Audio Player -->
+    <dimen name="audio_player_margin_top">5dp</dimen>
+    <dimen name="audio_player_margin_bottom">5dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="audio_progress_text_size">12sp</dimen>
+
+    <!-- Input -->
+
+    <!-- OnRatingChangedListener Slider -->
+    <dimen name="rating_slider_padding">5dp</dimen>
+
+    <!-- OnRatingChangedListener Thumbs -->
+    <dimen name="rating_thumbs_padding">5dp</dimen>
+    <dimen name="rating_thumbs_margin_top">5dp</dimen>
+    <dimen name="rating_thumbs_margin_right">15dp</dimen>
+    <dimen name="rating_thumbs_margin_left">5dp</dimen>
+
+    <!-- Audio Input -->
+    <dimen name="input_audio_mic_margin_top">10dp</dimen>
+    <dimen name="input_audio_mic_margin_bottom">10dp</dimen>
+    <dimen name="input_audio_margin_top">5dp</dimen>
+
+    <!-- Check -->
+    <dimen name="input_check_margin">5dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="@dimen/output_prompt_avatar_size"
+        android:layout_height="@dimen/output_prompt_avatar_size"
+        android:layout_alignBottom="@+id/ll_body"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/output_prompt_small_margin"
+        android:padding="@dimen/output_prompt_avatar_padding"
+        android:background="@drawable/round_rectangle_prompt"
+        android:src="@drawable/icon_avatar2"/>
+
+    <LinearLayout
+        android:id="@+id/ll_body"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/output_prompt_body_margin_top"
+        android:layout_marginLeft="@dimen/output_prompt_small_margin"
+        android:layout_marginRight="@dimen/output_prompt_big_margin"
+        android:layout_toRightOf="@id/iv_avatar">
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/output_prompt_text_message_padding"
+            android:background="@drawable/round_rectangle_prompt"
+            android:layout_gravity="left"
+            android:text="Do you like toe socks?"/>
+
+        <include layout="@layout/layout_audio_player"/>
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/output_prompt_username_margin_top"
+            android:layout_gravity="left"
+            android:padding="@dimen/output_prompt_username_padding"
+            android:background="@drawable/round_rectangle_username"
+            android:textColor="@color/output_prompt_username_text"
+            android:text="Dragos Pricope"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

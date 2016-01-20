@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/game_bg_color">
+
+    <ImageView
+        android:id="@+id/iv_big_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:background="@color/game_bg_color"
+        android:src="@drawable/icon_avatar1"/>
+
+</RelativeLayout>

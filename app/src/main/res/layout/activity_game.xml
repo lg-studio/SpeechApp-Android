@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.tas.speech.sections.game.GameActivity">
+
+    <ListView
+        android:id="@+id/lv_output_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/output_prompt_list_margin_bottom"
+        android:layout_above="@+id/ll_input_footer"
+        android:divider="@null"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:id="@+id/ll_input_footer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/input_prompt_margin_top"
+        android:background="@color/input_prompt_footer_bg"/>
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

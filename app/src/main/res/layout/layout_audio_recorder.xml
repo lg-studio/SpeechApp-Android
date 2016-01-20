@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@color/input_prompt_footer_bg">
+
+    <RelativeLayout
+        android:id="@+id/rl_recording_progress"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/audio_player_margin_top">
+
+        <SeekBar
+            android:id="@+id/sb_recording_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/tv_recording_progress"/>
+
+        <TextView
+            android:id="@+id/tv_recording_progress"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/sb_recording_progress"
+            android:gravity="center"
+            android:textSize="@dimen/audio_progress_text_size"
+            android:textColor="@color/input_prompt_rating_text"
+            android:text="00:00 "/>
+
+        <TextView
+            android:id="@+id/tv_min_length"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/sb_recording_progress"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/audio_progress_text_size"
+            android:textColor="@color/lime"
+            android:text="00:03" />
+
+        <TextView
+            android:id="@+id/tv_max_length"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/sb_recording_progress"
+            android:layout_toLeftOf="@+id/tv_recording_progress"
+            android:layout_toStartOf="@+id/tv_recording_progress"
+            android:textSize="@dimen/audio_progress_text_size"
+            android:textColor="@color/lime"
+            android:text="00:30"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_record"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_recording_progress"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/input_prompt_check">
+
+        <ImageView
+            android:id="@+id/iv_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/icon_mic" />
+
+        <ImageView
+            android:id="@+id/iv_record_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:visibility="invisible"
+            android:src="@drawable/icon_check" />
+
+        <ImageView
+            android:id="@+id/iv_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:visibility="invisible"
+            android:src="@drawable/icon_stop" />
+
+        <ImageView
+            android:id="@+id/iv_stop_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:visibility="invisible"
+            android:src="@drawable/icon_check" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

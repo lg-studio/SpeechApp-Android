@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/audio_player_margin_top"
+    android:layout_marginBottom="@dimen/audio_player_margin_bottom"
+    android:weightSum="10"
+    android:background="@drawable/round_rectangle_prompt">
+
+    <ImageView
+        android:id="@+id/iv_play"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/icon_play"/>
+
+    <SeekBar
+        android:id="@+id/sb_audio_progress"
+        android:layout_width="wrap_content"
+        android:layout_weight="8"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tv_audio_progress"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/audio_progress_text_size"
+        android:gravity="center_vertical"
+        android:text="00:00/00:00" />
+
+</LinearLayout>

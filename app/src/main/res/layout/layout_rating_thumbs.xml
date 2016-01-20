@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/rating_thumbs_padding">
+
+    <TextView
+        android:id="@+id/tv_feedback_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/input_prompt_rating_text"
+        android:text="Metric" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tv_feedback_question"
+        android:layout_marginTop="@dimen/rating_thumbs_margin_top"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/iv_thumbs_up"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/icon_thumbs_up"
+            android:layout_marginRight="@dimen/rating_thumbs_margin_right"/>
+
+
+        <ImageView
+            android:id="@+id/iv_thumbs_down"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/rating_thumbs_margin_left"
+            android:src="@drawable/icon_thumbs_down" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

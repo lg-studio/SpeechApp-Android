@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">SpeechApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- The authentication cookie name -->
+    <string name="auth_cookie_name">connect.sid</string>
+    <!-- The key used to retrieve the authentication cookie value from shared preferences -->
+    <string name="auth_cookie">AUTH_COOKIE</string>
+
+    <!-- Login -->
+    <string name="login_title">SpeechApp</string>
+    <string name="login_btn_label">LOGIN</string>
+    <string name="login_hint_username">username</string>
+    <string name="login_hint_password">password</string>
+
+    <!-- Main Screen -->
+    <!-- Certificates -->
+    <string name="certificates_title">Certificates</string>
+
+    <!-- Topics -->
+    <string name="topics_title">Topic List</string>
+    <string name="topics_prefix_avg_score">Average Score:</string>
+    <string name="topics_prefix_min_spent">Minutes Spent:</string>
+    <string name="topics_suffix_ex_singular">Exercise</string>
+    <string name="topics_suffix_ex_plural">Exercises</string>
+
+    <!-- Tasks -->
+    <string name="tasks_title">Exercise List</string>
+
+    <!-- Game -->
+    <string name="rating_message">The ratings for %1$s are: %2$s.</string>
+    <string name="my_message_author">Me</string>
+
+    <string name="rating_listen_all_audios">You must listen to all the audios to submit your rating.</string>
+    <string name="answer_listen_all_audios">You must listen to all the audios to submit your answer.</string>
+    <string name="title_listen_all_audios">Info</string>
+    <string name="positive_listen_all_audios">Ok</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+
+    <!-- Sign Up-->
+    <string name="sign_up_title">Sign Up</string>
+
+    <string name="first_name_label">First Name&lt;sup&gt;&lt;small&gt;*&lt;/sup&gt;&lt;/small&gt;</string>
+    <string name="first_name_hint">First Name</string>
+
+    <string name="last_name_label">Last Name&lt;sup&gt;&lt;small&gt;*&lt;/sup&gt;&lt;/small&gt;</string>
+    <string name="last_name_hint">Last Name</string>
+
+    <string name="year_born_label">Year Born</string>
+    <string name="year_born_hint">Year Born</string>
+    <string name="year_select_title">Select Year:</string>
+
+    <string name="gender_label">Gender</string>
+    <string name="gender_hint">Gender</string>
+    <string name="gender_select_title">Select Gender:</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="country_label">Country</string>
+    <string name="country_hint">Country</string>
+    <string name="country_select_title">Select Country:</string>
+
+    <string name="language_label">Language</string>
+    <string name="language_hint">Language</string>
+    <string name="language_select_title">Select Language:</string>
+
+    <string name="email_label">Email&lt;sup&gt;&lt;small&gt;*&lt;/sup&gt;&lt;/small&gt;</string>
+    <string name="email_hint">Email</string>
+
+    <string name="password_label">Password&lt;sup&gt;&lt;small&gt;*&lt;/sup&gt;&lt;/small&gt;</string>
+    <string name="password_hint">Password</string>
+
+    <string name="confirm_password_label">Confirm Password&lt;sup&gt;&lt;small&gt;*&lt;/sup&gt;&lt;/small&gt;</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+
+    <!-- Reset Password -->
+    <string name="reset_password_title">Reset Password</string>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/input_prompt_footer_bg">
+    <TableLayout
+        android:id="@+id/table_options"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/iv_option1"
+                android:layout_height="70dp"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_rectangle_multiple_text"
+                android:textSize="15sp"
+                android:src="@drawable/icon_avatar1"/>
+            <ImageView
+                android:id="@+id/iv_option2"
+                android:layout_height="70dp"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_rectangle_multiple_text"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:src="@drawable/icon_avatar1"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/iv_option3"
+                android:layout_height="70dp"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_rectangle_multiple_text"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:src="@drawable/icon_avatar1"/>
+            <ImageView
+                android:id="@+id/iv_option4"
+                android:layout_height="70dp"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_rectangle_multiple_text"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:src="@drawable/icon_avatar1"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <include
+        layout="@layout/layout_prompt_submit_input"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/table_options"/>
+
+</RelativeLayout>

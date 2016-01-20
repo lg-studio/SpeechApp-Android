@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:layout_weight="1">
+
+
+    <TextView
+        android:id="@+id/tv_topic"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/green_dark"
+        android:text="School Subjects"
+    android:background="@drawable/multiple_choice_cell_round_rectangle"/>
+
+</RelativeLayout>

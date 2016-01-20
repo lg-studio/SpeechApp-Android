@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_parent_bg">
+
+    <LinearLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/login_bg">
+
+        <include
+            android:id="@+id/toolbar_login"
+            layout="@layout/toolbar">
+        </include>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv_form_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/ll_form_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true" >
+
+            <TextView
+                android:id="@+id/tv_form_simple_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/green_dark"
+                android:textSize="16sp"
+                android:text="Profile Picture"/>
+
+            <FrameLayout
+                android:id="@+id/fl_add_profile_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="3dp"
+                android:background="@drawable/round_rectangle_form_edittext_valid"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/iv_profile_default"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_profile_image" />
+
+                <ImageView
+                    android:id="@+id/iv_profile_add"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_add"/>
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_create_account"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Create Account"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/selector_login_button"
+                android:textColor="@color/login_button_text_color"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="gray_dark">#1d1921</color>
+    <color name="gray_light">#ededed</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="green_dark">#266604</color>
+    <color name="green_dark2">#214504</color>
+    <color name="green_mid">#88bf3f</color>
+    <color name="green_light">#ebfcd9</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+
+
+    <!-- Login -->
+    <color name="login_box_bg">@color/green_mid</color>
+    <color name="login_button">@color/green_dark</color>
+    <color name="login_button_pressed">@color/green_dark2</color>
+    <color name="login_button_text_color">@color/white</color>
+    <color name="login_parent_bg">@color/green_dark2</color>
+    <color name="login_bg">@color/white</color>
+
+
+    <!-- Main Screen -->
+    <!-- Navigation Drawer -->
+    <color name="drawer_header_bg">@color/green_mid</color>
+    <color name="drawer_item_bg">@color/green_dark</color>
+    <color name="drawer_item_selected_bg">@color/green_dark2</color>
+    <color name="drawer_frame_profile_image">@color/white</color>
+    <color name="drawer_text">@color/white</color>
+
+    <!-- Certificates -->
+    <color name="certificates_bg">@color/white</color>
+    <color name="certificates_text">@color/white</color>
+    <color name="certificate_row">@color/green_dark</color>
+    <color name="certificate_row_pressed">@color/green_dark2</color>
+
+    <!-- Topics -->
+    <color name="topic_bg">@color/white</color>
+    <color name="topic_certificate_name">@color/green_dark</color>
+    <color name="topic_details_bg">@color/white</color>
+    <color name="topic_details_type">@color/green_dark</color>
+
+    <!--  -->
+
+    <color name="output_prompt_username">@color/silver</color>
+    <color name="output_prompt_username_text">@color/white</color>
+    <color name="output_prompt_avatar_bg">@color/white</color>
+    <color name="output_prompt_text_message">@color/white</color>
+    <color name="output_prompt_text_my_message">@color/green_light</color>
+
+    <color name="game_bg_color">@color/gray_light</color>
+
+    <color name="input_prompt_multiple_selected">@color/green_light</color>
+    <color name="input_prompt_footer_bg">@color/gray_dark</color>
+    <color name="input_prompt_check">@color/green_dark</color>
+    <color name="input_prompt_rating_text">@color/white</color>
+
+    <!-- Toolbar -->
+    <color name="ColorPrimary">@color/green_dark</color>
+    <color name="ColorPrimaryDark">@color/green_dark2</color>
+
+    <!-- Sign Up -->
+    <color name="sign_up_text">@color/black</color>
+    <color name="sign_up_hint">@color/gray_light</color>
+</resources>
